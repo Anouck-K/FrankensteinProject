@@ -73,5 +73,32 @@
     
     <!-- add additional templates below, for example to transform the tei:lb in <br/> empty elements, tei:hi[@rend = 'sup'] in <sup> elements, the underlined text, additions with the attribute "overwritten" etc. -->
 
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend='sup']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend='u']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend='circled']">
+        <span style="border: 1px solid #000; border-radius: 50%; padding: 1px;">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:add[@place='overwritten']">
+        <i>
+            <xsl:apply-templates/>
+        </i>
+    </xsl:template>
     
 </xsl:stylesheet>

@@ -1,5 +1,5 @@
 body {
-
+    background-color: beige;
 }
 .starter-template {
   padding: 40px 15px;
@@ -32,4 +32,50 @@ p {
     display: none !important;
 }
 
-
+/*  Display supralinear additions in superscript */   /* HOW am I supposed to make the supralinear additions superscript if that is in the xml files instead of html file ??? Should this not be done in the XSL file?? */
+add[place="supralinear"] {
+    vertical-align:super;
+    font-size:smaller;
+}
+/* Center the header on the homepage */
+#HomeHeader {
+    text-align:center;
+}
+/* Center my name on the homepage */
+#MyName {
+    text-align:center;
+}
+/* Remove the indent of the paragraph underneath the photographs */
+#PhotoText1, #PhotoText2 {
+    text-indent: 0px;
+}
+/* Make the text underneath the pictures a little smaller */
+#PhotoText1, #PhotoText2 {
+    font-size: 14px;
+}
+/* Give the table a 1px border */
+table, td {
+    border: 1px solid;
+}
+/* Make the border around the headers of the table thicker */
+th {
+    border: 2px solid; 
+}
+/* Make the table a little wider */
+table {
+    width:25%;
+}
+/* Center the table */
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Center the elements on the page so they align with the header */
+.col-3 {
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Center the previous/next page buttons */
+.MyButton {
+    text-align:center;
+}

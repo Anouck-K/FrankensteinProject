@@ -16,14 +16,25 @@
                              <xsl:value-of select="//tei:licence"/> <!-- You can change the way the metadata is visualised as well-->
                          </div>
                          <div class="col">
+                            <h5>About the modifications of this page:</h5>
                             <ul> 
                                 <li>Total number of modifications: 
                                     <xsl:value-of select="count(//tei:del|//tei:add)" /> <!-- Counts all the add and del elements, and puts it in a list item -->
                                 </li>
                                 <li>Number of additions: 
                                     <!-- count the additions only -->
+                                    <xsl:value-of select="count(//tei:add)"/>
                                 </li>
                                 <!-- add other list items in which you count things, such as the modifications made by Percy -->
+                                <li>Number of modifications by Percy Shelley:
+                                    <xsl:value-of select="count(//tei:add[@hand='#PBS']|//tei:del[@hand='#PBS'])"/>
+                                </li>
+                                <li>Number of modifications by Mary Shelley:
+                                    <xsl:value-of select="count(//tei:add[@hand='#MWS']|//tei:del[@hand='#MWS'])"/>
+                                </li>
+                                <li>Word count:
+                                    <xsl:value-of select="count(//tei:p/text())"/>
+                                </li>
                             </ul>
                         </div>
                      </div>
