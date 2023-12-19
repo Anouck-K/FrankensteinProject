@@ -100,5 +100,11 @@
             <xsl:apply-templates/>
         </i>
     </xsl:template>
+
+    <xsl:template match="tei:add[@place='supralinear']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
     
 </xsl:stylesheet>

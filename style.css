@@ -32,11 +32,7 @@ p {
     display: none !important;
 }
 
-/*  Display supralinear additions in superscript */   /* HOW am I supposed to make the supralinear additions superscript if that is in the xml files instead of html file ??? Should this not be done in the XSL file?? */
-add[place="supralinear"] {
-    vertical-align:super;
-    font-size:smaller;
-}
+
 /* Center the header on the homepage */
 #HomeHeader {
     text-align:center;
@@ -78,4 +74,8 @@ table {
 /* Center the previous/next page buttons */
 .MyButton {
     text-align:center;
+}
+/* Put the toggle deletions button at the right side of the page*/
+.MyButton2 {
+    text-align:right;
 }

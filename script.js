@@ -105,14 +105,62 @@ function documentLoader() {
   var PercyArray = Array.from(visible_percy);
     if (event.target.value == 'both') {
     //write an forEach() method that shows all the text written and modified by both hand (in black?). The forEach() method of Array instances executes a provided function once for each array element.
-     
+        MaryArray.forEach(BlackBoth);
+        PercyArray.forEach (BlackBoth);
+        function BlackBoth (mod) {
+            mod.style.color='black';
+        }       
+    
     } else if (event.target.value == 'Mary') {
      //write an forEach() method that shows all the text written and modified by Mary in a different color (or highlight it) and the text by Percy in black. 
+     MaryArray.forEach(BlueMary);
+        PercyArray.forEach(BlackPercy);
      
+     function BlueMary(mod) {
+        mod.style.color = 'blue';
+     }  
+     function BlackPercy (mod) {
+         mod.style.color='black';
+     }
     } else {
      //write an forEach() method that shows all the text written and modified by Percy in a different color (or highlight it) and the text by Mary in black.
-    
-    }
+     PercyArray.forEach(RedPercy);
+        MaryArray.forEach(BlackMary);
+        
+     function RedPercy(modification) {
+        modification.style.color='red';
+     }
+     function BlackMary(modification) {
+         modification.style.color='black';
+     };
+    };
   }
 // write another function that will toggle the display of the deletions by clicking on a button
+ function ClickToggle (event) {
+ //Get all the 'del' elements
+ var DelNodes = document.getElementsByTagName('del');
+ // Turn them into an array
+ var DelNodesArray = Array.from(DelNodes);
+    if (event.target.value == 'click') {
+        DelNodesArray.forEach(ToggleDeletions);       
+        function ToggleDeletions(deletions){
+            deletions.style.display = deletions.style.display === 'none' ? '' : 'none';
+        };
+    };     
+}
+
+// function to toggle notes
+function ClickToggleNote (event) {
+ //Get all the 'note' elements
+ var NoteNodes = document.getElementsByTagName('note');
+ // Turn them into an array
+ var NoteNodesArray = Array.from(NoteNodes);
+    if (event.target.value == 'clickNote') {
+        NoteNodesArray.forEach(ToggleNotes);       
+        function ToggleNotes(notes){
+            notes.style.display = notes.style.display === 'none' ? '' : 'none';
+        };
+    };     
+}
+
 // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
