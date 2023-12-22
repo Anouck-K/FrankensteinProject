@@ -35,7 +35,7 @@
             <metamark function="pagenumber"><num><hi rend="circled">76</hi></num></metamark>
             <p>his shrivelled complexion and strait<lb/>
                 black lips.<lb/></p> 
-            <p style="text-indent:20px">The different accidents of life are<lb/>
+            <p>The different accidents of life are<lb/>
                 not so changeable at the feelings of hu<lb/>
                 man nature. I had worked hard for<lb/>
                 nearly two years for the sole purpose<lb/>
@@ -46,9 +46,9 @@
                 moderation; but now that I had succeed<lb/>
                 ed these dreams vanished and breathless<lb/>
                 horror and disgust filled my heart.<lb/> 
-                Unable<add place="supralinear" hand="#MWS" rend="black ink">to endure</add><add place="infralinear" hand="#MWS" rend="black ink"><metamark>^</metamark></add><note>'^' is used as metamark to show where an addition should go in the text</note> the aspect of the <del type="crossedOut" hand="#PBS" rend="black ink">creature</del><add place="supralinear" hand="#PBS" rend="black ink">being</add> I<lb/>
+                Unable <add place="supralinear" hand="#MWS" rend="black ink">to endure</add><add place="infralinear" hand="#MWS" rend="black ink"><metamark>&#8248;</metamark></add><note>'^' is used as metamark to show where an addition should go in the text</note> the aspect of the <del type="crossedOut" hand="#PBS" rend="black ink">creature</del> <add place="supralinear" hand="#PBS" rend="black ink">being</add> I<lb/>
                 had created, I rushed out of the room and<lb/>
-                <del type="crossedOut" hand="#PBS" rend="black ink">remained</del><add place="supralinear" hand="#PBS" rend="black ink">continued</add> a long time traversing my<lb/>
+                <del type="crossedOut" hand="#PBS" rend="black ink">remained</del> <add place="supralinear" hand="#PBS" rend="black ink">continued</add> a long time traversing my<lb/>
                 bed chamber unable to compose my<lb/>
                 mind to sleep. At length <del type="crossedOut" hand="#MWS" rend="black ink">s</del> I assitude<lb/>
                 succeeded to the tumult I had before<lb/>
@@ -57,7 +57,7 @@
                 a <del type="crossedOut" hand="#MWS" rend="black ink">feew</del> few moments of forgetfullness.<lb/> 
                 But it was in vain; I slept indeed but<lb/>
                 I was disturbed by the wildest dreams-<lb/>
-                I saw Elizabeth<add place="supralinear" hand="#MWS" rend="black ink">in the bloom of health</add><add place="infralinear" hand="#MWS" rend="black ink"><metamark>^</metamark></add><note>'^' is used as metamark to show where an addition should go in the text</note> walking in the streets of<lb/>
+                I saw Elizabeth <add place="supralinear" hand="#MWS" rend="black ink">in the bloom of health</add><add place="infralinear" hand="#MWS" rend="black ink"><metamark>&#8248;</metamark></add><note>'^' is used as metamark to show where an addition should go in the text</note> walking in the streets of<lb/>
                 Ingolstadt; delighted &amp; surprised I embraced<lb/>
                 her but as I imprinted the first kiss<lb/>
                 on her lips they became lurid with<lb/>

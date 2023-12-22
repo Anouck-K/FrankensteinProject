@@ -96,15 +96,18 @@
     </xsl:template>
     
     <xsl:template match="tei:add[@place='overwritten']">
-        <i>
+        <span class="supraItalics">
             <xsl:apply-templates/>
-        </i>
+        </span>
     </xsl:template>
-
-    <xsl:template match="tei:add[@place='supralinear']">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
+    
+    <xsl:template match="tei:note">
+        <note>
+            <span style="border: 1px dotted #000">
+                <xsl:apply-templates/>
+            </span>
+        </note>
     </xsl:template>
+    
     
 </xsl:stylesheet>

@@ -79,3 +79,12 @@ table {
 .MyButton2 {
     text-align:right;
 }
+/* Make the supralinear additions superscript */
+.supraAdd {
+    vertical-align:super;
+    font-size: smaller;
+}
+/* Make additions that were overwritten appear in italics */
+.supraItalics {
+    font-style: italic;
+}

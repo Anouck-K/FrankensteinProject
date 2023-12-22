@@ -44,11 +44,11 @@
         <p>
           I passed the night wretchedly–<lb/>
           sometimes my pulses beat so quickly <del type="overwritten" hand="#MWS" rend="black ink">t</del><add place="overwritten" hand="#MWS" rend="black ink">a</add>nd<lb/>
-          ha<add place="supralinear" hand="#MWS" rend="black ink">r</add><add place="infralinear" hand="#MWS" rend="black ink"><metamark>^</metamark></add><note>'^' is used as metamark to show where an addition should go in the text</note>dly that I felt the palpitation of<lb/>
+          ha<add place="supralinear" hand="#MWS" rend="black ink">r</add><add place="infralinear" hand="#MWS" rend="black ink"><metamark>&#8248;</metamark></add><note>'^' is used as metamark to show where an addition should go in the text</note>dly that I felt the palpitation of<lb/>
           every artery: at others I nearly sunk<lb/>
-          to the ground <del type="crossedOut" hand="#PBS" rend="black ink">with</del><add place="supralinear" hand="#PBS" rend="black ink">thro</add> languor and ex-<lb/>
-          treme weakness.<del type="crossedOut" hand="#MWS" rend="black ink">Surely so wretched a</del><lb/>
-          <add place="marginleft" hand="#MWS" rend="black ink"><metamark>X</metamark><note>'X' is used to indicate that the following lines should be inserted where 'X' appears in the text.</note><lb/>
+          to the ground <del type="crossedOut" hand="#PBS" rend="black ink">with</del> <add place="supralinear" hand="#PBS" rend="black ink">thro</add> languor and ex-<lb/>
+          treme weakness. <del type="crossedOut" hand="#MWS" rend="black ink">Surely so wretched a</del><lb/>
+          <add place="marginleft" hand="#MWS" rend="black ink"><metamark>&#9747;</metamark><lb/>
             and mingled<lb/>
             with this hor<lb/>
             ror I felt the<lb/>
@@ -56,7 +56,7 @@
             <del type="crossedOut" hand="#MWS" rend="black ink">disapp</del><lb/>
             disappoint<lb/>
             ment:<lb/></add>
-          <add place="supralinear" hand="#MWS" rend="black ink"><metamark>X</metamark></add><note>'X' is used to show that the lines in the left margin should be inserted here.</note><del type="crossedOut" hand="#MWS">creature as I never before existed.</del><lb/>
+          <add place="supralinear" hand="#MWS" rend="black ink"><metamark>&#9747;</metamark></add><note>'X' is used to show that the lines in the left margin should be inserted here.</note><del type="crossedOut" hand="#MWS">creature as I never before existed.</del><lb/>
           Dreams that had been my food and<lb/>
           rest for so long a space were now<lb/>
           become a hell to me– <del type="crossedOut" hand="#MWS" rend="black ink">I</del> and the<lb/>
@@ -71,7 +71,7 @@
           pointed to the sixth<del type="crossedOut" hand="#MWS" rend="black ink">e</del> hour. The porter<lb/>
           opened the gates of the court which had<lb/>
           that night been my assylum and I<lb/>
-          issued into the streets, pacing<add place="supralinear" hand="#PBS" rend="black ink">them</add> with<lb/>
+          issued into the streets, pacing <add place="supralinear" hand="#PBS" rend="black ink">them</add> with<lb/>
           quick steps as if I <del type="crossedOut" hand="#MWS" rend="black ink">ough</del> sought to<lb/>
           <add place="marginleft" hand="#PBS" rend="black ink">avoid</add>the wretch whom I feared every turn-<lb/>
           ing in the street would present to<lb/>

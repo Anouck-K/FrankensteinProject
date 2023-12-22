@@ -32,9 +32,6 @@
                                 <li>Number of modifications by Mary Shelley:
                                     <xsl:value-of select="count(//tei:add[@hand='#MWS']|//tei:del[@hand='#MWS'])"/>
                                 </li>
-                                <li>Word count:
-                                    <xsl:value-of select="count(//tei:p/text())"/>
-                                </li>
                             </ul>
                         </div>
                      </div>
